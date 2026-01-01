@@ -1,0 +1,290 @@
+{
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[django-txt]": {},
+  "[dockercompose]": {
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.insertSpaces": true,
+    "editor.quickSuggestions": {
+      "comments": false,
+      "other": true,
+      "strings": true
+    },
+    "editor.tabSize": 2
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": false
+  },
+  "[typescript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "autoDocstring.docstringFormat": "sphinx",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.formatting": "clangFormat",
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.enableAppInsights": false,
+  "code-runner.fileDirectoryAsCwd": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "color-highlight.languages": [
+    "*"
+  ],
+  "color-highlight.matchWords": true,
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.language": "en,ru",
+  "css.lint.duplicateProperties": "warning",
+  "css.lint.float": "warning",
+  "css.lint.important": "warning",
+  "css.lint.zeroUnits": "warning",
+  "debug.confirmOnExit": "always",
+  "debugpy.debugJustMyCode": false,
+  "debugpy.showPythonInlineValues": true,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "docker.extension.enableComposeLanguageServer": false,
+  "dotnetAcquisitionExtension.enableTelemetry": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.fontFamily": "Google Sans Code, Fira Code Retina, JetBrains Mono, Hack, Menlo, Consolas, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": true,
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.rulers": [
+    100
+  ],
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.wordWrap": "on",
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "files.associations": {
+    "*.php": "php"
+  },
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "onFocusChange",
+  "files.candidateGuessEncodings": [
+    "windows1251",
+    "cp866",
+    "utf16le",
+    "utf16be",
+    "windows1252",
+    "iso88595",
+    "utf8"
+  ],
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/.ruff_cache": true,
+    "**/.venv": true
+  },
+  "git.autofetch": true,
+  "git.openRepositoryInParentFolders": "never",
+  "go.toolsManagement.autoUpdate": true,
+  "java.autobuild.enabled": false,
+  "java.codeGeneration.generateComments": true,
+  "java.codeGeneration.hashCodeEquals.useInstanceof": true,
+  "java.codeGeneration.hashCodeEquals.useJava7Objects": true,
+  "java.dependency.showMembers": true,
+  "java.help.showReleaseNotes": false,
+  "java.project.importOnFirstTimeStartup": "interactive",
+  "java.server.launchMode": "LightWeight",
+  "java.showBuildStatusOnStart.enabled": "notification",
+  "json.validate.enable": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "markdown-preview-enhanced.breakOnSingleNewLine": false,
+  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+  "markdown-preview-enhanced.enableExtendedTableSyntax": true,
+  "markdown-preview-enhanced.enableHTML5Embed": true,
+  "markdown-preview-enhanced.enablePreviewZenMode": false,
+  "markdown-preview-enhanced.frontMatterRenderingOption": "code block",
+  "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false,
+  "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+  "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
+  "markdown-preview-enhanced.mermaidTheme": "dark",
+  "markdown-preview-enhanced.previewColorScheme": "systemColorScheme",
+  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown.preview.breaks": true,
+  "markdownlint.config": {
+    "MD013": false, // line length
+    "MD033": false, // inline HTML
+    "MD041": false // first line heading
+  },
+  "notebook.codeActionsOnSave": {
+    "notebook.source.fixAll": "explicit",
+    "notebook.source.organizeImports": "explicit"
+  },
+  "notebook.formatOnSave.enabled": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "python.analysis.autoFormatStrings": true,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.completeFunctionParens": true,
+  "python.analysis.diagnosticMode": "workspace",
+  "python.analysis.extraPaths": [
+    "C:\\Python313\\Lib\\site-packages",
+    "C:\\Users\\brookit\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages",
+    "/home/brookit/.local/lib/python3.13/site-packages",
+    "/home/brookit/.local/lib/python3.14/site-packages"
+  ],
+  "python.analysis.inlayHints.callArgumentNames": "partial",
+  "python.analysis.inlayHints.functionReturnTypes": true,
+  "python.analysis.inlayHints.pytestParameters": true,
+  "python.analysis.inlayHints.variableTypes": true,
+  "python.analysis.logLevel": "Warning",
+  "python.analysis.packageIndexDepths": [
+    {
+      "depth": 2,
+      "name": "sklearn"
+    },
+    {
+      "depth": 2,
+      "name": "matplotlib"
+    },
+    {
+      "depth": 2,
+      "name": "scipy"
+    },
+    {
+      "depth": 4,
+      "name": "django"
+    },
+    {
+      "depth": 4,
+      "name": "flask"
+    },
+    {
+      "depth": 4,
+      "name": "fastapi"
+    }
+  ],
+  "python.analysis.regenerateStdLibIndices": true,
+  "python.analysis.typeCheckingMode": "standard",
+  "python.defaultInterpreterPath": "C:\\Users\\brookit\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "python.globalModuleInstallation": true,
+  "python.languageServer": "Pylance",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.terminal.executeInFileDir": true,
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true,
+  "redhat.telemetry.enabled": false,
+  "python.testing.unittestArgs": [
+      "-v",
+      "-s",
+      ".",
+      "-p",
+      "test_*.py"
+  ],
+  "remote.SSH.remotePlatform": {
+    "localhost": "linux"
+  },
+  "ruff.enable": true,
+  "ruff.exclude": [
+    ".venv",
+    "venv",
+    "__pycache__",
+    "migrations",
+    "node_modules",
+    "build",
+    "dist",
+    ".ipynb_checkpoints"
+  ],
+  "ruff.lineLength": 100,
+  "ruff.lint.ignore": [
+    "E501", // длина строки (форматирует Ruff)
+    "E402", // import not at top — допустимо в web и скриптах
+    "F405", // from module import * — часто в notebooks
+    "T201", // print() разрешён в утилитах
+    "INP001", // __init__.py отсутствует — ок в скриптах
+    "D", // docstring обязательность
+    "FA", // ошибки импортов (часто ложные)
+    "PT009", // pytest.raises стиль — избыточно,
+    "RUF003",
+    "B008"
+  ],
+  "ruff.lint.select": [
+    "E", // PEP8 style
+    "F", // Pyflakes — ошибки
+    "W", // предупреждения
+    "I", // порядок импортов
+    "B", // bugbear (важные ошибки)
+    "C4", // comprehensions
+    "UP", // pyupgrade
+    "SIM", // упрощения кода
+    "RUF" // внутренние улучшения Ruff
+  ],
+  "ruff.logLevel": "info",
+  "ruff.nativeServer": "on",
+  "ruff.organizeImports": true,
+  "security.allowedUNCHosts": [
+    "brookit.me",
+    "old.brookit.me"
+  ],
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "sqltools.connections": [],
+  "telemetry.feedback.enabled": false,
+  "telemetry.telemetryLevel": "crash",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.profiles.windows": {
+    "Git Bash": {
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+    }
+  },
+  "window.menuBarVisibility": "classic",
+  "workbench.colorTheme": "cursor-dark",
+  "git.autoStash": true,
+  "git.blame.editorDecoration.enabled": true,
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
+  "workbench.iconTheme": "material-icon-theme"
+}
