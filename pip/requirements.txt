@@ -1,6 +1,6 @@
 requests[socks]
 BeautifulSoup4
-# pygame
+pygame-ce
 icdiff
 reedsolo
 tree-sitter
