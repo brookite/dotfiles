@@ -90,18 +90,18 @@ fi
 
 echo "Установка всех пакетов завершена успешно!"
 
-echo "🔄 Обновление pip, setuptools и wheel..."
+echo "Обновление pip, setuptools и wheel..."
 python -m pip config set global.break-system-packages true
 python -m pip install --upgrade pip setuptools wheel
 
-echo "📦 Установка зависимостей из requirements.txt..."
-python -m pip install --user -r "../../pip/requirements.txt" -r "../pip/apps_python.txt"
+echo "Установка зависимостей из requirements.txt..."
+python -m pip install --user -r requirements.tx" -r apps_python.txt
 
-echo "✅ Установка Python-зависимостей завершена."
+echo "Установка Python-зависимостей завершена."
 
-echo "🔄 Запуск установки через npm..."
-bash "../../langs/npm_install.sh"
+echo "Запуск установки через npm..."
+bash "npm_install.sh"
 
 sudo ln -sf /usr/bin/nvim /usr/bin/vi
 yay --save --answerdiff None --answerclean None --removemake
-echo "🎉 Все зависимости установлены!"
+echo "Все зависимости установлены!"

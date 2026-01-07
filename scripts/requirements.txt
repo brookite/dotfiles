@@ -5,6 +5,7 @@ icdiff
 reedsolo
 tree-sitter
 pyjson5
+calgebra[ical]
 tree-sitter-language-pack
 pyqt5
 lottie
@@ -54,6 +55,7 @@ openai
 deepdiff
 bidict
 yt-dlp[default]
+google-api-python-client
 aiohttp
 git+https://github.com/brookite/pyvcard
 python-Levenshtein

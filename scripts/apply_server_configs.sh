@@ -15,8 +15,8 @@ sudo apt update
 sudo apt install -y samba vsftpd gnupg openssh-server
 
 echo "Копируем конфиги..."
-sudo cp ../../configs/smb.conf /etc/samba/smb.conf
-sudo cp ../../configs/vsftpd.conf /etc/vsftpd.conf
+sudo cp ../configs/smb.conf /etc/samba/smb.conf
+sudo cp ../configs/vsftpd.conf /etc/vsftpd.conf
 
 # Перезапуск сервисов
 echo "Перезапускаем службы Samba и FTP..."

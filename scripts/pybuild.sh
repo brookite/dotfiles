@@ -57,7 +57,6 @@ sudo make altinstall  # altinstall чтобы не перезаписать /usr
 cd ..
 sudo rm -rf "Python-$PYTHON_LATEST" "Python-$PYTHON_LATEST.tgz"
 
-# Регистрация в update-alternatives
 PYTHON_BIN="/usr/local/bin/python${PYTHON_MAJOR_MINOR}"
 PYTHON_VERSION_INSTALLED=$($PYTHON_BIN --version | awk '{print $2}')
 echo "Python $PYTHON_VERSION_INSTALLED установлен по пути $PYTHON_BIN"
@@ -76,7 +75,7 @@ cd "$START_DIR"
 
 # Установка пакетов из requirements_console.txt
 echo "Установка зависимостей из requirements_console.txt..."
-$PYTHON_BIN -m pip install -r "../pip/requirements_console.txt"
+$PYTHON_BIN -m pip install -r requirements_console.txt
 
 # Установка ссылок
 ln -sf $PYTHON_BIN ~/.local/bin/python

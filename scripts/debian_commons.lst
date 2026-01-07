@@ -6,6 +6,7 @@ libstdc++-14-dev
 g++
 gcc
 lsb-release
+stow
 nano
 ffmpeg
 libvlc-bin

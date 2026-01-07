@@ -1,5 +1,5 @@
 # Neovim сборка
-echo "📝 Сборка и установка Neovim..."
+echo "Сборка и установка Neovim..."
 git clone --branch stable --depth 1 https://github.com/neovim/neovim ~/neovim
 cd ~/neovim
 make CMAKE_BUILD_TYPE=Release

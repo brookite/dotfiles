@@ -48,7 +48,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 \. "$HOME/.nvm/nvm.sh"
 nvm install --lts
 npm config set prefix '~/.local/'
-bash ../../langs/npm_install.sh
+bash npm_install.sh
 
 
 # Rust
@@ -65,8 +65,8 @@ sudo usermod -aG docker $USER
 # Python: обновление pip и установка зависимостей
 echo "Обновление python..."
 
-bash ../../langs/pybuild.sh
-bash ../../helpers/build_nvim.sh
+bash pybuild.sh
+bash build_nvim.sh
 
 # LLVM установка
 read -r -p "Установить LLVM 21? [y/N] " answer
@@ -88,6 +88,6 @@ echo "Установка Deno..."
 curl -fsSL https://deno.land/install.sh | sh
 
 echo "Установка Go..."
-bash ../../langs/install_go.sh
+bash install_go.sh
 
 echo "Установка завершена успешно!"
