@@ -37,3 +37,4 @@ rm "$GO_ARCHIVE"
 echo "Go успешно установлен в /usr/local/go/bin! Текущая версия:"
 export PATH=$PATH:/usr/local/go/bin
 go version
+go install golang.org/x/tools/gopls@latest
