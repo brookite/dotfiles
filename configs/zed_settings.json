@@ -7,13 +7,25 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "terminal": {
+    "shell": {
+      "program": "C:\\Program Files\\Git\\bin\\bash.exe",
+    },
+    "detect_venv": {
+      "on": {
+        "directories": [".venv", "venv"],
+        "activate_script": "default",
+      },
+    },
+  },
+  "icon_theme": "Material Icon Theme",
   "git": {
     "inline_blame": {
-      "enabled": true
-    }
+      "enabled": true,
+    },
   },
   "minimap": {
-    "show": "never"
+    "show": "never",
   },
   "buffer_font_fallbacks": [
     "Fira Code Retina",
@@ -22,10 +34,10 @@
     "Menlo",
     "Consolas",
     "Courier New",
-    "monospace"
+    "monospace",
   ],
   "file_types": {
-    "php": ["*.php"]
+    "php": ["*.php"],
   },
   "auto_indent_on_paste": true,
   "linked_edits": true,
@@ -33,35 +45,37 @@
   "soft_wrap": "editor_width",
   "diagnostics": {
     "inline": {
-      "enabled": false
-    }
+      "enabled": false,
+    },
   },
   "prettier": {
-    "allowed": true
+    "allowed": true,
   },
   "autosave": {
     "after_delay": {
-      "milliseconds": 500
-    }
+      "milliseconds": 500,
+    },
   },
   "buffer_font_family": "Fira Code Retina",
   "telemetry": {
     "diagnostics": false,
-    "metrics": false
+    "metrics": false,
   },
   "base_keymap": "VSCode",
-  "ui_font_size": 16,
+  "ui_font_size": 16.0,
   "buffer_font_size": 16.0,
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "Cursor Dark"
+    "dark": "Cursor Dark",
   },
+  "inline_code_actions": false,
+  "selection_highlight": true,
   "wsl_connections": [
     {
       "distro_name": "Debian",
       "user": null,
-      "projects": []
-    }
-  ]
+      "projects": [],
+    },
+  ],
 }
