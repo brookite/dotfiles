@@ -18,6 +18,7 @@ jsonschema
 tree-sitter
 termcolor
 pyexcel
+pymediawiki
 pyexcel-xlsx
 pyexcel-xls
 jmespath

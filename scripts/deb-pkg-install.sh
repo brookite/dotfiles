@@ -54,6 +54,7 @@ bash npm_install.sh
 # Rust
 echo "Установка Rust..."
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-bins/cargo-binstall/main/install-from-binstall-release.sh | bash
 
 # Установка JDK, Node и Docker после добавления реп
 echo "Установка Temurin, Node.js и Docker..."

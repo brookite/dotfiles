@@ -11,6 +11,7 @@ pyqt5
 lottie
 qscintilla
 xxhash
+pymediawiki
 pyzstd
 pymorphy3
 exif

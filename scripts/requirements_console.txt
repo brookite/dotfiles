@@ -19,6 +19,7 @@ pyzstd
 mouse
 termcolor
 tomlkit
+pymediawiki
 deepdiff
 openai
 bidict
