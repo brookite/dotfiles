@@ -50,6 +50,7 @@ qt5-applications
 mysql-connector-python
 adict
 fs
+lz4
 seaborn
 dominate
 openai
@@ -95,7 +96,6 @@ httpx
 pyfzf
 segno
 eel
-nbt2yaml
 python-docx
 emoji
 pygtrie

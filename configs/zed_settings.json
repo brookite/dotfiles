@@ -7,6 +7,8 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "show_signature_help_after_edits": false,
+  "colorize_brackets": false,
   "terminal": {
     "shell": {
       "program": "C:\\Program Files\\Git\\bin\\bash.exe",
@@ -74,8 +76,9 @@
   "wsl_connections": [
     {
       "distro_name": "Debian",
-      "user": null,
+      "user": "brookit",
       "projects": [],
     },
   ],
+  "show_wrap_guides": true,
 }

@@ -17,6 +17,7 @@ pyjson5
 transitions
 pyzstd
 mouse
+lz4
 termcolor
 tomlkit
 pymediawiki
@@ -84,7 +85,6 @@ python-vlc
 xlrd
 xlwt
 cython
-nbt2yaml
 Markdown
 docutils
 Markups

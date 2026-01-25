@@ -16,6 +16,7 @@ transitions
 croniter
 jsonschema
 tree-sitter
+lz4
 termcolor
 pyexcel
 pymediawiki
@@ -79,7 +80,6 @@ progressbar
 xlrd
 xlwt
 cython
-nbt2yaml
 Markdown
 docutils
 Markups
