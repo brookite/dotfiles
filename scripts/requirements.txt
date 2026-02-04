@@ -126,6 +126,7 @@ watchdog
 Sphinx
 astral
 ruff
+conan
 flask
 Flask-WTF
 Flask-Login
@@ -143,7 +144,6 @@ pickleDB
 icecream
 websockets
 pyparsing
-requests-html
 psycopg[binary]
 asyncpg
 pymongo

@@ -112,7 +112,6 @@ pickleDB
 icecream
 websockets
 pyparsing
-requests-html
 git+https://github.com/brookite/pyvcard
 vcard
 icalendar

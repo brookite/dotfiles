@@ -81,4 +81,13 @@
     },
   ],
   "show_wrap_guides": true,
+  "lsp": {
+    "ruff": {
+      "initialization_options": {
+        "settings": {
+          "configuration": "C:\\Users\\brookit\\AppData\\Roaming\\ruff\\ruff.toml",
+        },
+      },
+    },
+  },
 }
