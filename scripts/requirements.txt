@@ -8,8 +8,10 @@ pyjson5
 calgebra[ical]
 tree-sitter-language-pack
 pyqt5
+minify-html
 lottie
 qscintilla
+Pygments
 xxhash
 pymediawiki
 pyzstd

@@ -8,6 +8,7 @@ graphene
 icdiff
 keyboard
 mouse
+Pygments
 conan
 calgebra[ical]
 aiosqlite
@@ -17,6 +18,7 @@ croniter
 jsonschema
 tree-sitter
 lz4
+minify-html
 termcolor
 pyexcel
 pymediawiki

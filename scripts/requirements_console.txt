@@ -9,10 +9,12 @@ aiofiles
 lottie
 graphene
 tree-sitter
+Pygments
 tree-sitter-language-pack
 calgebra[ical]
 google-api-python-client
 keyboard
+minify-html
 pyjson5
 transitions
 pyzstd
