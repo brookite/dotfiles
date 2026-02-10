@@ -8,6 +8,7 @@ graphene
 icdiff
 keyboard
 mouse
+json5
 Pygments
 conan
 calgebra[ical]
@@ -128,8 +129,7 @@ PyYAML
 xxhash
 aiohttp
 jupyter
-mypy-ls
-pyls-isort
+python-lsp-server
 fastapi
 pydantic
 pydantic-settings

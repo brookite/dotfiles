@@ -2,6 +2,7 @@ requests[socks]
 BeautifulSoup4
 pygame-ce
 icdiff
+json5
 reedsolo
 tree-sitter
 pyjson5
@@ -162,8 +163,7 @@ rdflib
 pypdf[crypto]
 wikitextparser
 PyYAML
-mypy-ls
-pyls-isort
+python-lsp-server
 fastapi
 pydantic
 pydantic-settings

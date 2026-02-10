@@ -4,6 +4,7 @@ dateparser
 black
 reedsolo
 icdiff
+json5
 aiosqlite
 aiofiles
 lottie
@@ -146,8 +147,7 @@ matplotlib
 aiohttp
 lxml
 jupyter
-mypy-ls
-pyls-isort
+python-lsp-server
 fastapi
 pydantic
 pydantic-settings
