@@ -134,6 +134,8 @@ fastapi
 pydantic
 pydantic-settings
 uvicorn[standard]
+whitenoise
+gunicorn
 cbor2
 protobuf
 APScheduler

@@ -168,7 +168,9 @@ fastapi
 pydantic
 pydantic-settings
 uvicorn[standard]
+gunicorn
 grpcio
+whitenoise
 grpcio-tools
 protobuf
 cbor2
