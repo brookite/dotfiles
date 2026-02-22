@@ -6,6 +6,7 @@ reedsolo
 icdiff
 json5
 aiosqlite
+statsmodels
 aiofiles
 lottie
 graphene
@@ -15,6 +16,7 @@ tree-sitter-language-pack
 calgebra[ical]
 google-api-python-client
 keyboard
+GitPython
 minify-html
 pyjson5
 transitions

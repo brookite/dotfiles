@@ -8,4 +8,8 @@ pkg install -y libzmq libxml2 libxslt -y build-essential cmake fzf binutils binu
 python -m pip install --upgrade setuptools wheel
 pkg install python-numpy python-pillow python-pandas python-lxml python-scipy python-yt-dlp matplotlib ruff uv leveldb -y
 
+LINE='export ANDROID_API_LEVEL="$(getprop ro.build.version.sdk)"'
+grep -qxF "$LINE" ~/.bashrc 2>/dev/null || echo "$LINE" >> ~/.bashrc
+source ~/.bashrc
+
 python -m pip install --upgrade -r requirements_termux.txt --extra-index-url https://termux-user-repository.github.io/pypi/

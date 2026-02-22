@@ -7,6 +7,7 @@ reedsolo
 tree-sitter
 pyjson5
 calgebra[ical]
+statsmodels
 tree-sitter-language-pack
 pyqt5
 minify-html
@@ -36,6 +37,7 @@ alembic
 citeproc-py
 python-benedict[io]
 dishka
+GitPython
 black
 translators
 termcolor

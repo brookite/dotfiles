@@ -35,6 +35,7 @@ termux-api
 deepdiff
 openai
 mypy
+GitPython
 exif
 jsonpatch
 natsort
