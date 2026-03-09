@@ -1,0 +1,7 @@
+openai
+g4f
+google-genai
+anthropic
+mcp[cli]
+sentence-transformers
+langchain

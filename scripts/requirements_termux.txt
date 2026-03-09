@@ -4,6 +4,7 @@ dateparser
 black
 reedsolo
 pyjson5
+pyjwt
 graphene
 icdiff
 keyboard
@@ -49,6 +50,7 @@ dishka
 bpython
 plyvel
 schedule
+antlr4-python3-runtime
 pymorphy3
 python-dotenv
 fs

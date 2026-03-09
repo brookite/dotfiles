@@ -16,7 +16,7 @@ has_gui() {
 
 uv self update
 uv tool upgrade ty
-python3.14 -m pip install --upgrade pip setuptools wheel
+python3.14 -m pip install --upgrade pip setuptools wheel packaging
 if has_gui; then
   python3.14 -m pip install --upgrade -r requirements.txt -r apps_python.txt
 else

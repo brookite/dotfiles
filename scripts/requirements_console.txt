@@ -5,6 +5,7 @@ black
 reedsolo
 icdiff
 json5
+pyjwt
 aiosqlite
 statsmodels
 aiofiles
@@ -13,6 +14,7 @@ graphene
 tree-sitter
 Pygments
 tree-sitter-language-pack
+antlr4-python3-runtime
 calgebra[ical]
 google-api-python-client
 keyboard

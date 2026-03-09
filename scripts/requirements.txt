@@ -6,9 +6,11 @@ json5
 reedsolo
 tree-sitter
 pyjson5
+pyjwt
 calgebra[ical]
 statsmodels
 tree-sitter-language-pack
+antlr4-python3-runtime
 pyqt5
 minify-html
 lottie
