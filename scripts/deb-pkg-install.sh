@@ -74,6 +74,7 @@ read -r -p "Установить LLVM 21? [y/N] " answer
 case "$answer" in
     [yY]|[yY][eE][sS])
         echo "Установка LLVM 21..."
+        wget -qO- https://apt.llvm.org/llvm-snapshot.gpg.key | sudo tee /etc/apt/trusted.gpg.d/apt.llvm.org.asc
         wget https://apt.llvm.org/llvm.sh
         chmod u+x llvm.sh
         sudo ./llvm.sh 21
