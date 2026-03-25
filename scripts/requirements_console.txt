@@ -8,6 +8,7 @@ json5
 pyjwt
 aiosqlite
 statsmodels
+fonttools
 aiofiles
 lottie
 graphene

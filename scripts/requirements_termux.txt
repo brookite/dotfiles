@@ -10,6 +10,7 @@ icdiff
 keyboard
 mouse
 json5
+fonttools
 Pygments
 conan
 calgebra[ical]

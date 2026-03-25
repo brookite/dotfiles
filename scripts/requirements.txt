@@ -8,6 +8,7 @@ tree-sitter
 pyjson5
 pyjwt
 calgebra[ical]
+fonttools
 statsmodels
 tree-sitter-language-pack
 antlr4-python3-runtime
