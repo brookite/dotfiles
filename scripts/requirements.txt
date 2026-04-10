@@ -31,6 +31,7 @@ pyside6
 keyboard
 pytest
 pytest-asyncio
+pathspec
 mouse
 bcrypt
 python-jose[cryptography]

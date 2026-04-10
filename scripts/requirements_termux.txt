@@ -17,6 +17,7 @@ calgebra[ical]
 aiosqlite
 aiofiles
 transitions
+pathspec
 croniter
 jsonschema
 tree-sitter
