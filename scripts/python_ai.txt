@@ -5,3 +5,4 @@ anthropic
 mcp[cli]
 sentence-transformers
 langchain
+ollama

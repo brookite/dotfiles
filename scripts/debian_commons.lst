@@ -9,6 +9,7 @@ lsb-release
 stow
 nano
 ffmpeg
+libusb-dev
 libvlc-bin
 libleveldb-dev
 libvlc-dev
@@ -47,6 +48,7 @@ libtree-sitter-dev
 gettext
 tmux
 bison
+bat
 ripgrep
 flex
 binutils

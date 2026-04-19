@@ -11,8 +11,10 @@ calgebra[ical]
 fonttools
 statsmodels
 tree-sitter-language-pack
+msgspec
 antlr4-python3-runtime
 pyqt5
+dilithium-py
 minify-html
 lottie
 qscintilla
@@ -22,15 +24,18 @@ pymediawiki
 pyzstd
 pymorphy3
 exif
+libusb
 dateparser
 graphene
 aiosqlite
 aiofiles
+sqlmodel
 transitions
 pyside6
 keyboard
 pytest
 pytest-asyncio
+pytest-django
 pathspec
 mouse
 bcrypt
@@ -80,6 +85,8 @@ matplotlib
 geopy
 pynbt
 django
+django-modern-rest
+django-stubs-ext
 djangorestframework
 django-filter
 django-extensions
@@ -171,6 +178,8 @@ wikitextparser
 PyYAML
 python-lsp-server
 fastapi
+fastapi-storages
+fastapi-limiter
 pydantic
 pydantic-settings
 uvicorn[standard]

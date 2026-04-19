@@ -15,7 +15,9 @@ Pygments
 conan
 calgebra[ical]
 aiosqlite
+dilithium-py
 aiofiles
+msgspec
 transitions
 pathspec
 croniter
@@ -33,12 +35,14 @@ pyzstd
 APScheduler
 pytest
 pytest-asyncio
+pytest-django
 tomlkit
 termux-api
 deepdiff
 openai
 mypy
 GitPython
+sqlmodel
 exif
 jsonpatch
 natsort
@@ -98,6 +102,8 @@ Sphinx
 astral
 flask
 django
+django-modern-rest
+django-stubs-ext
 djangorestframework
 django-filter
 django-extensions
@@ -117,6 +123,7 @@ pytesseract
 SQLAlchemy
 rich
 pickleDB
+libusb
 icecream
 websockets
 pyparsing
@@ -136,6 +143,8 @@ aiohttp
 jupyter
 python-lsp-server
 fastapi
+fastapi-storages
+fastapi-limiter
 pydantic
 pydantic-settings
 uvicorn[standard]
