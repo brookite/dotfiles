@@ -1,5 +1,6 @@
 retext
-yt-dlp
+yt-dlp[default]
 auto-py-to-exe
 pip-review
 pywebcopy
+httpie
