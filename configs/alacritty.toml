@@ -52,6 +52,19 @@ size = 13
 family = "Hack Nerd Font"
 style = "Regular"
 
+[selection]
+save_to_clipboard = true
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Control|Shift"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Control|Shift"
+
 [[keyboard.bindings]]
 action = "SpawnNewInstance"
 key = "N"
@@ -93,6 +106,14 @@ mods = "Command"
 chars = "\u001BR"
 key = "R"
 mods = "Command"
+
+[[mouse.bindings]]
+mouse = "Right"
+action = "Paste"
+
+[[mouse.bindings]]
+mouse = "Middle"
+action = "Paste"
 
 [window]
 decorations = "None"

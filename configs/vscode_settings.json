@@ -1,6 +1,6 @@
 {
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[django-txt]": {},
   "[dockercompose]": {
@@ -10,56 +10,56 @@
     "editor.quickSuggestions": {
       "comments": false,
       "other": true,
-      "strings": true
+      "strings": true,
     },
-    "editor.tabSize": 2
+    "editor.tabSize": 2,
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml"
+    "editor.defaultFormatter": "redhat.vscode-yaml",
   },
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
+    "editor.defaultFormatter": "vscode.html-language-features",
   },
   "[javascript]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
+      "source.fixAll.eslint": "explicit",
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[javascriptreact]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
+      "source.fixAll.eslint": "explicit",
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
   },
   "[python]": {
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
-      "source.organizeImports": "explicit"
+      "source.organizeImports": "explicit",
     },
     "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.formatOnSave": false
+    "editor.formatOnSave": false,
   },
   "[typescript]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
+      "source.fixAll.eslint": "explicit",
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "[typescriptreact]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit"
+      "source.fixAll.eslint": "explicit",
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
   },
   "autoDocstring.docstringFormat": "sphinx",
   "C_Cpp.default.cppStandard": "c++17",
@@ -71,9 +71,7 @@
   "code-runner.ignoreSelection": true,
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.saveFileBeforeRun": true,
-  "color-highlight.languages": [
-    "*"
-  ],
+  "color-highlight.languages": ["*"],
   "color-highlight.matchWords": true,
   "cSpell.diagnosticLevel": "Hint",
   "cSpell.language": "en,ru",
@@ -89,25 +87,23 @@
   "docker.extension.enableComposeLanguageServer": false,
   "dotnetAcquisitionExtension.enableTelemetry": false,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "explicit",
   },
   "editor.fontFamily": "Google Sans Code, Fira Code Retina, JetBrains Mono, Hack, Menlo, Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
-  "editor.rulers": [
-    100
-  ],
+  "editor.rulers": [100],
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.wordWrap": "on",
   "emmet.includeLanguages": {
-    "django-html": "html"
+    "django-html": "html",
   },
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
   "files.associations": {
-    "*.php": "php"
+    "*.php": "php",
   },
   "files.autoGuessEncoding": true,
   "files.autoSave": "onFocusChange",
@@ -118,7 +114,7 @@
     "utf16be",
     "windows1252",
     "iso88595",
-    "utf8"
+    "utf8",
   ],
   "files.eol": "\n",
   "files.exclude": {
@@ -126,7 +122,7 @@
     "**/.mypy_cache": true,
     "**/.pytest_cache": true,
     "**/.ruff_cache": true,
-    "**/.venv": true
+    "**/.venv": true,
   },
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "never",
@@ -158,11 +154,11 @@
   "markdownlint.config": {
     "MD013": false, // line length
     "MD033": false, // inline HTML
-    "MD041": false // first line heading
+    "MD041": false, // first line heading
   },
   "notebook.codeActionsOnSave": {
     "notebook.source.fixAll": "explicit",
-    "notebook.source.organizeImports": "explicit"
+    "notebook.source.organizeImports": "explicit",
   },
   "notebook.formatOnSave.enabled": true,
   "prettier.jsxSingleQuote": true,
@@ -171,12 +167,6 @@
   "python.analysis.autoImportCompletions": true,
   "python.analysis.completeFunctionParens": true,
   "python.analysis.diagnosticMode": "workspace",
-  "python.analysis.extraPaths": [
-    "C:\\Python313\\Lib\\site-packages",
-    "C:\\Users\\brookit\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages",
-    "/home/brookit/.local/lib/python3.13/site-packages",
-    "/home/brookit/.local/lib/python3.14/site-packages"
-  ],
   "python.analysis.inlayHints.callArgumentNames": "partial",
   "python.analysis.inlayHints.functionReturnTypes": true,
   "python.analysis.inlayHints.pytestParameters": true,
@@ -185,32 +175,31 @@
   "python.analysis.packageIndexDepths": [
     {
       "depth": 2,
-      "name": "sklearn"
+      "name": "sklearn",
     },
     {
       "depth": 2,
-      "name": "matplotlib"
+      "name": "matplotlib",
     },
     {
       "depth": 2,
-      "name": "scipy"
+      "name": "scipy",
     },
     {
       "depth": 4,
-      "name": "django"
+      "name": "django",
     },
     {
       "depth": 4,
-      "name": "flask"
+      "name": "flask",
     },
     {
       "depth": 4,
-      "name": "fastapi"
-    }
+      "name": "fastapi",
+    },
   ],
   "python.analysis.regenerateStdLibIndices": true,
-  "python.analysis.typeCheckingMode": "standard",
-  "python.defaultInterpreterPath": "C:\\Users\\brookit\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+  "python.defaultInterpreterPath": "C:\\Users\\brookit\\AppData\\Local\\Python\\bin\\python.exe",
   "python.globalModuleInstallation": true,
   "python.languageServer": "Pylance",
   "python.terminal.activateEnvInCurrentTerminal": true,
@@ -218,15 +207,9 @@
   "python.testing.pytestEnabled": false,
   "python.testing.unittestEnabled": true,
   "redhat.telemetry.enabled": false,
-  "python.testing.unittestArgs": [
-      "-v",
-      "-s",
-      ".",
-      "-p",
-      "test_*.py"
-  ],
+  "python.testing.unittestArgs": ["-v", "-s", ".", "-p", "test_*.py"],
   "remote.SSH.remotePlatform": {
-    "localhost": "linux"
+    "localhost": "linux",
   },
   "ruff.enable": true,
   "ruff.exclude": [
@@ -237,54 +220,69 @@
     "node_modules",
     "build",
     "dist",
-    ".ipynb_checkpoints"
+    ".ipynb_checkpoints",
   ],
   "ruff.lineLength": 100,
-  "ruff.lint.ignore": [
-    "E501", // длина строки (форматирует Ruff)
-    "E402", // import not at top — допустимо в web и скриптах
-    "F405", // from module import * — часто в notebooks
-    "T201", // print() разрешён в утилитах
-    "INP001", // __init__.py отсутствует — ок в скриптах
-    "D", // docstring обязательность
-    "FA", // ошибки импортов (часто ложные)
-    "PT009", // pytest.raises стиль — избыточно,
-    "RUF003",
-    "B008"
-  ],
   "ruff.lint.select": [
-    "E", // PEP8 style
-    "F", // Pyflakes — ошибки
-    "W", // предупреждения
-    "I", // порядок импортов
-    "B", // bugbear (важные ошибки)
-    "C4", // comprehensions
-    "UP", // pyupgrade
-    "SIM", // упрощения кода
-    "RUF" // внутренние улучшения Ruff
+    "E", // PEP8 errors
+    "F", // Pyflakes
+    "W", // PEP8 warnings
+    "I", // isort (импорты)
+    "B", // flake8-bugbear (важные баги)
+    "C4", // flake8-comprehensions (list/dict/set gen)
+    "UP", // pyupgrade (современный синтаксис)
+    "SIM", // flake8-simplify (упрощение кода)
+    "RUF", // Ruff-specific rules
+    "A", // flake8-builtins (не перекрывать id, type, list)
+    "ISC", // implicit-str-concat (забытые запятые в строках)
+    "LOG", // flake8-logging (правильное логирование)
+    "FAST", // FastAPI
+    "ASYNC", // Асихронный код
+    "NPY", // NumPy
+    "DJ", // Django
+    "C4", // flake8-comprehensions (оптимизация list/dict/set генераторов)
+    "PERF", // Выявление проблем с производительностью
+    "FURB", // Форматирование кода
+  ],
+  "ruff.lint.ignore": [
+    "E501",
+    "D",
+    "INP001",
+    "T201",
+    "PT009",
+    "RUF003",
+    "B008",
+    "E402",
+    "F405",
+    "A002",
   ],
   "ruff.logLevel": "info",
   "ruff.nativeServer": "on",
   "ruff.organizeImports": true,
-  "security.allowedUNCHosts": [
-    "brookit.me",
-    "old.brookit.me"
-  ],
+  "security.allowedUNCHosts": ["brookit.me", "old.brookit.me"],
   "security.workspace.trust.banner": "never",
   "security.workspace.trust.untrustedFiles": "open",
   "sqltools.connections": [],
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "crash",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  //"terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.profiles.windows": {
     "Git Bash": {
-      "path": "C:\\Program Files\\Git\\bin\\bash.exe"
-    }
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+    },
   },
   "window.menuBarVisibility": "classic",
-  "workbench.colorTheme": "cursor-dark",
+  "workbench.colorTheme": "cursor-less-dark",
   "git.autoStash": true,
-  "git.blame.editorDecoration.enabled": true,
   "docker.extension.dockerEngineAvailabilityPrompt": false,
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "githubPullRequests.createOnPublishBranch": "never",
+  "ruff.configuration": "C:\\Users\\brookit\\AppData\\Roaming\\ruff\\ruff.toml",
+  "ruff.configurationPreference": "filesystemFirst",
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true,
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "notebook.defaultFormatter": "charliermarsh.ruff",
+  "python.analysis.typeCheckingMode": "standard"
 }

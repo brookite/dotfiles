@@ -15,6 +15,7 @@ lottie
 graphene
 tree-sitter
 Pygments
+docxtpl
 dilithium-py
 pathspec
 libusb

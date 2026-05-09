@@ -17,6 +17,7 @@ calgebra[ical]
 aiosqlite
 dilithium-py
 aiofiles
+docxtpl
 msgspec
 transitions
 pathspec

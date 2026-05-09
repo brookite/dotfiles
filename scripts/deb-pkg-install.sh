@@ -89,6 +89,10 @@ esac
 echo "Установка Deno..."
 curl -fsSL https://deno.land/install.sh | sh
 
+#Bun
+echo "Установка Bun..."
+curl -fsSL https://bun.com/install | bash
+
 echo "Установка Go..."
 bash install_go.sh
 

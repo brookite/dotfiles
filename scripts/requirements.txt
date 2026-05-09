@@ -19,6 +19,7 @@ minify-html
 lottie
 qscintilla
 Pygments
+docxtpl
 xxhash
 pymediawiki
 pyzstd
@@ -103,7 +104,7 @@ win32mica; sys_platform == 'win32'
 djvulibre-python; sys_platform == 'linux'
 pymupdf
 rapidfuzz
-readability-lxml
+readability-lxml; sys_platform == 'win32'
 jupyter
 phonenumbers
 rsa
