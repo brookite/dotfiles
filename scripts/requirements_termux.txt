@@ -8,6 +8,7 @@ pyjwt
 graphene
 icdiff
 keyboard
+Authlib
 mouse
 json5
 fonttools
@@ -19,7 +20,9 @@ dilithium-py
 aiofiles
 docxtpl
 msgspec
+secure
 transitions
+tree-sitter-language-pack
 pathspec
 croniter
 jsonschema

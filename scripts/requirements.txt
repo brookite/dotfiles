@@ -7,6 +7,7 @@ reedsolo
 tree-sitter
 pyjson5
 pyjwt
+Authlib
 calgebra[ical]
 fonttools
 statsmodels
@@ -18,6 +19,7 @@ dilithium-py
 minify-html
 lottie
 qscintilla
+secure
 Pygments
 docxtpl
 xxhash

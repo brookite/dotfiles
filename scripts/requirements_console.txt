@@ -9,7 +9,9 @@ msgspec
 pyjwt
 aiosqlite
 statsmodels
+Authlib
 fonttools
+secure
 aiofiles
 lottie
 graphene
