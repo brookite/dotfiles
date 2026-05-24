@@ -83,6 +83,7 @@ ln -sf $PYTHON_BIN ~/.local/bin/python
 echo "Установка uv..."
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ~/.local/bin/uv tool install ty@latest
+~/.local/bin/uv tool install ruff@latest
 
 # Финал
 echo "Python $PYTHON_VERSION_INSTALLED успешно установлен и активирован как основной python3!"
