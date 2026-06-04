@@ -9,6 +9,7 @@ graphene
 icdiff
 keyboard
 Authlib
+ftfy
 mouse
 json5
 fonttools

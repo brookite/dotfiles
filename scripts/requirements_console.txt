@@ -10,6 +10,7 @@ pyjwt
 aiosqlite
 statsmodels
 Authlib
+pyright
 fonttools
 secure
 aiofiles
@@ -18,6 +19,7 @@ graphene
 tree-sitter
 Pygments
 docxtpl
+ftfy
 dilithium-py
 pathspec
 libusb

@@ -59,7 +59,7 @@ curl -L --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/cargo-
 # Установка JDK, Node и Docker после добавления реп
 echo "Установка Temurin, Node.js и Docker..."
 sudo apt-get update
-sudo apt install -y temurin-25-jdk temurin-8-jdk
+sudo apt install -y temurin-25-jdk temurin-8-jdk maven 
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 sudo usermod -aG docker $USER
 

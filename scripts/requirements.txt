@@ -10,6 +10,7 @@ pyjwt
 Authlib
 calgebra[ical]
 fonttools
+ftfy
 statsmodels
 tree-sitter-language-pack
 msgspec
@@ -41,6 +42,7 @@ pytest-asyncio
 pytest-django
 pathspec
 mouse
+pyright
 bcrypt
 python-jose[cryptography]
 jmespath

@@ -6,11 +6,13 @@ libstdc++-14-dev
 g++
 gcc
 lsb-release
+imagemagick
 jq
 stow
 nano
 ffmpeg
 libusb-dev
+bubblewrap
 libvlc-bin
 libleveldb-dev
 libvlc-dev
