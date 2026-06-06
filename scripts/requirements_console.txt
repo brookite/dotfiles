@@ -47,6 +47,7 @@ pyexcel-xlsx
 pyexcel-xls
 pytest
 pytest-asyncio
+pytest-httpx
 pytest-django
 croniter
 exif
@@ -170,6 +171,7 @@ fastapi
 fastapi-storages
 fastapi-limiter
 pydantic
+pydantic-graph
 pydantic-settings
 uvicorn[standard]
 whitenoise

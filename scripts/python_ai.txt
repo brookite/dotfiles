@@ -6,3 +6,4 @@ mcp[cli]
 sentence-transformers
 langchain
 ollama
+pydantic-ai

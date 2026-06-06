@@ -38,6 +38,7 @@ transitions
 pyside6
 keyboard
 pytest
+pytest-httpx
 pytest-asyncio
 pytest-django
 pathspec
@@ -186,6 +187,7 @@ fastapi
 fastapi-storages
 fastapi-limiter
 pydantic
+pydantic-graph
 pydantic-settings
 uvicorn[standard]
 gunicorn
