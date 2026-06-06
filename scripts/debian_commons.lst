@@ -9,6 +9,7 @@ lsb-release
 imagemagick
 jq
 stow
+bsdiff
 nano
 ffmpeg
 libusb-dev
@@ -27,6 +28,7 @@ openssl
 libncurses-dev
 openssh-server
 openssh-client
+poppler-utils
 mc
 fzf
 libreadline-dev
