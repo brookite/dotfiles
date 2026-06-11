@@ -42,10 +42,12 @@ pytest
 pytest-asyncio
 pytest-httpx
 pytest-django
+pytest-conversational
 tomlkit
 termux-api
 deepdiff
 openai
+jpype1
 mypy
 GitPython
 sqlmodel

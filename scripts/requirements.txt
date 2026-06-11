@@ -11,6 +11,8 @@ Authlib
 calgebra[ical]
 fonttools
 ftfy
+pythonnet
+jpype1
 statsmodels
 tree-sitter-language-pack
 msgspec
@@ -41,6 +43,7 @@ pytest
 pytest-httpx
 pytest-asyncio
 pytest-django
+pytest-conversational
 pathspec
 mouse
 pyright
