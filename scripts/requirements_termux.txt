@@ -47,7 +47,6 @@ tomlkit
 termux-api
 deepdiff
 openai
-jpype1
 mypy
 GitPython
 sqlmodel
