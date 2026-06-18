@@ -9,6 +9,8 @@ graphene
 icdiff
 keyboard
 Authlib
+python-pptx
+pptx-shapes
 ftfy
 mouse
 json5

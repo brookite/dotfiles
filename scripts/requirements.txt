@@ -8,10 +8,12 @@ tree-sitter
 pyjson5
 pyjwt
 Authlib
+python-pptx
 calgebra[ical]
 fonttools
 ftfy
 pythonnet
+pptx-shapes
 jpype1
 statsmodels
 tree-sitter-language-pack
