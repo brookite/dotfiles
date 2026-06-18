@@ -31,6 +31,7 @@ antlr4-python3-runtime
 calgebra[ical]
 google-api-python-client
 keyboard
+docker
 GitPython
 minify-html
 pyjson5
