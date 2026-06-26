@@ -54,6 +54,7 @@ pytest-asyncio
 pytest-conversational
 pytest-httpx
 pytest-django
+pytest-xdist
 croniter
 exif
 sqlmodel

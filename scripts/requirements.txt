@@ -45,6 +45,7 @@ pytest
 pytest-httpx
 pytest-asyncio
 pytest-django
+pytest-xdist
 pytest-conversational
 pathspec
 mouse
