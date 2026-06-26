@@ -48,8 +48,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 \. "$HOME/.nvm/nvm.sh"
 nvm install --lts
 npm config set prefix '~/.local/'
-bash npm_install.sh
-
 
 # Rust
 echo "Установка Rust..."
