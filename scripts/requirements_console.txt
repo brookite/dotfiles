@@ -9,7 +9,9 @@ msgspec
 pyjwt
 aiosqlite
 statsmodels
+pycountry
 Authlib
+PyOTP
 python-pptx
 pptx-shapes
 pyright

@@ -25,8 +25,8 @@ docxtpl
 msgspec
 secure
 transitions
-tree-sitter-language-pack
 pathspec
+pycountry
 croniter
 jsonschema
 tree-sitter
