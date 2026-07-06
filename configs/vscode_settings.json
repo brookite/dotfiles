@@ -1,6 +1,9 @@
 {
+  "C_Cpp.default.cStandard": "c11",
+  "C_Cpp.default.cppStandard": "c++17",
+  "C_Cpp.formatting": "clangFormat",
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[django-txt]": {},
   "[dockercompose]": {
@@ -10,71 +13,73 @@
     "editor.quickSuggestions": {
       "comments": false,
       "other": true,
-      "strings": true,
+      "strings": true
     },
-    "editor.tabSize": 2,
+    "editor.tabSize": 2
   },
   "[github-actions-workflow]": {
-    "editor.defaultFormatter": "redhat.vscode-yaml",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
   },
   "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.defaultFormatter": "vscode.html-language-features"
   },
   "[javascript]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit",
+      "source.fixAll.eslint": "explicit"
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascriptreact]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit",
+      "source.fixAll.eslint": "explicit"
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[markdown]": {
-    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
   },
   "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.codeActionsOnSave": {
       "source.fixAll": "explicit",
-      "source.organizeImports": "explicit",
+      "source.organizeImports": "explicit"
     },
     "editor.defaultFormatter": "charliermarsh.ruff",
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": false
   },
   "[typescript]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit",
+      "source.fixAll.eslint": "explicit"
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[typescriptreact]": {
     "editor.codeActionsOnSave": {
-      "source.fixAll.eslint": "explicit",
+      "source.fixAll.eslint": "explicit"
     },
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "autoDocstring.docstringFormat": "sphinx",
-  "C_Cpp.default.cppStandard": "c++17",
-  "C_Cpp.default.cStandard": "c11",
-  "C_Cpp.formatting": "clangFormat",
+  "cSpell.diagnosticLevel": "Hint",
+  "cSpell.language": "en,ru",
+  "chat.mcp.access": "all",
+  "claudeCode.preferredLocation": "panel",
   "code-runner.clearPreviousOutput": true,
   "code-runner.enableAppInsights": false,
   "code-runner.fileDirectoryAsCwd": true,
   "code-runner.ignoreSelection": true,
   "code-runner.saveAllFilesBeforeRun": true,
   "code-runner.saveFileBeforeRun": true,
-  "color-highlight.languages": ["*"],
+  "color-highlight.languages": [
+    "*"
+  ],
   "color-highlight.matchWords": true,
-  "cSpell.diagnosticLevel": "Hint",
-  "cSpell.language": "en,ru",
   "css.lint.duplicateProperties": "warning",
   "css.lint.float": "warning",
   "css.lint.important": "warning",
@@ -84,26 +89,33 @@
   "debugpy.showPythonInlineValues": true,
   "diffEditor.hideUnchangedRegions.enabled": true,
   "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "docker.extension.dockerEngineAvailabilityPrompt": false,
   "docker.extension.enableComposeLanguageServer": false,
   "dotnetAcquisitionExtension.enableTelemetry": false,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit",
+    "source.organizeImports": "explicit"
   },
   "editor.fontFamily": "Google Sans Code, Fira Code Retina, JetBrains Mono, Hack, Menlo, Consolas, 'Courier New', monospace",
   "editor.fontSize": 16,
   "editor.formatOnPaste": true,
   "editor.linkedEditing": true,
   "editor.minimap.enabled": false,
-  "editor.rulers": [100],
+  "editor.rulers": [
+    100
+  ],
+  "editor.unicodeHighlight.allowedLocales": {
+    "ru": true
+  },
   "editor.unicodeHighlight.nonBasicASCII": false,
   "editor.wordWrap": "on",
   "emmet.includeLanguages": {
-    "django-html": "html",
+    "django-html": "html"
   },
   "eslint.format.enable": true,
   "eslint.lintTask.enable": true,
   "files.associations": {
-    "*.php": "php",
+    "*.php": "php"
   },
   "files.autoGuessEncoding": true,
   "files.autoSave": "onFocusChange",
@@ -114,18 +126,38 @@
     "utf16be",
     "windows1252",
     "iso88595",
-    "utf8",
+    "utf8"
   ],
   "files.eol": "\n",
   "files.exclude": {
-    "**/__pycache__": true,
     "**/.mypy_cache": true,
+    "**/.pytest-cache": true,
     "**/.pytest_cache": true,
     "**/.ruff_cache": true,
+    "**/.uv-cache": true,
+    "**/.uv_cache": true,
     "**/.venv": true,
+    "**/__pycache__": true,
+    "~$*": true
   },
+  "git.autoStash": true,
   "git.autofetch": true,
   "git.openRepositoryInParentFolders": "never",
+  "github.copilot.chat.planAgent.additionalTools": [
+    "lean-ctx_ctx_read",
+    "lean-ctx_ctx_search",
+    "lean-ctx_ctx_tree",
+    "lean-ctx_ctx_overview",
+    "lean-ctx_ctx_plan",
+    "lean-ctx_ctx_metrics",
+    "lean-ctx_ctx_compress",
+    "lean-ctx_ctx_session",
+    "lean-ctx_ctx_knowledge",
+    "lean-ctx_ctx_graph",
+    "lean-ctx_ctx_retrieve",
+    "lean-ctx_ctx_provider"
+  ],
+  "githubPullRequests.createOnPublishBranch": "never",
   "go.toolsManagement.autoUpdate": true,
   "java.autobuild.enabled": false,
   "java.codeGeneration.generateComments": true,
@@ -137,36 +169,38 @@
   "java.server.launchMode": "LightWeight",
   "java.showBuildStatusOnStart.enabled": "notification",
   "json.validate.enable": true,
+  "kotlin.debugAdapter.enabled": false,
+  "kotlin.languageServer.enabled": false,
   "liveServer.settings.donotShowInfoMsg": true,
+  "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
+  "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
   "markdown-preview-enhanced.breakOnSingleNewLine": false,
-  "markdown-preview-enhanced.codeBlockTheme": "github-dark.css",
+  "markdown-preview-enhanced.codeBlockTheme": "github.css",
   "markdown-preview-enhanced.enableExtendedTableSyntax": true,
   "markdown-preview-enhanced.enableHTML5Embed": true,
   "markdown-preview-enhanced.enablePreviewZenMode": false,
   "markdown-preview-enhanced.frontMatterRenderingOption": "code block",
   "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false,
-  "markdown-preview-enhanced.HTML5EmbedIsAllowedHttp": true,
-  "markdown-preview-enhanced.HTML5EmbedUseLinkSyntax": true,
   "markdown-preview-enhanced.mermaidTheme": "dark",
   "markdown-preview-enhanced.previewColorScheme": "systemColorScheme",
-  "markdown-preview-enhanced.previewTheme": "github-dark.css",
+  "markdown-preview-enhanced.previewTheme": "gothic.css",
   "markdown.preview.breaks": true,
   "markdownlint.config": {
-    "MD013": false, // line length
-    "MD033": false, // inline HTML
-    "MD041": false, // first line heading
+    "MD013": false,
+    "MD033": false,
+    "MD041": false
   },
+  "mermaidChart.showGenerateDiagramCodeLens": false,
   "notebook.codeActionsOnSave": {
     "notebook.source.fixAll": "explicit",
-    "notebook.source.organizeImports": "explicit",
+    "notebook.source.organizeImports": "explicit"
   },
+  "notebook.defaultFormatter": "charliermarsh.ruff",
   "notebook.formatOnSave.enabled": true,
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
   "python.analysis.autoFormatStrings": true,
-  "python.analysis.autoImportCompletions": true,
   "python.analysis.completeFunctionParens": true,
-  "python.analysis.diagnosticMode": "workspace",
   "python.analysis.inlayHints.callArgumentNames": "partial",
   "python.analysis.inlayHints.functionReturnTypes": true,
   "python.analysis.inlayHints.pytestParameters": true,
@@ -175,42 +209,42 @@
   "python.analysis.packageIndexDepths": [
     {
       "depth": 2,
-      "name": "sklearn",
+      "name": "sklearn"
     },
     {
       "depth": 2,
-      "name": "matplotlib",
+      "name": "matplotlib"
     },
     {
       "depth": 2,
-      "name": "scipy",
+      "name": "scipy"
     },
     {
       "depth": 4,
-      "name": "django",
+      "name": "django"
     },
     {
       "depth": 4,
-      "name": "flask",
+      "name": "flask"
     },
     {
       "depth": 4,
-      "name": "fastapi",
-    },
+      "name": "fastapi"
+    }
   ],
   "python.analysis.regenerateStdLibIndices": true,
-  "python.defaultInterpreterPath": "C:\\Users\\brookit\\AppData\\Local\\Python\\bin\\python.exe",
+  "python.analysis.typeCheckingMode": "standard",
   "python.globalModuleInstallation": true,
   "python.languageServer": "Pylance",
   "python.terminal.activateEnvInCurrentTerminal": true,
   "python.terminal.executeInFileDir": true,
-  "python.testing.pytestEnabled": false,
-  "python.testing.unittestEnabled": true,
+  "python.testing.pytestEnabled": true,
   "redhat.telemetry.enabled": false,
-  "python.testing.unittestArgs": ["-v", "-s", ".", "-p", "test_*.py"],
   "remote.SSH.remotePlatform": {
-    "localhost": "linux",
+    "localhost": "linux"
   },
+  "ruff.configuration": "C:\\Users\\brookit\\AppData\\Roaming\\ruff\\ruff.toml",
+  "ruff.configurationPreference": "filesystemFirst",
   "ruff.enable": true,
   "ruff.exclude": [
     ".venv",
@@ -220,30 +254,10 @@
     "node_modules",
     "build",
     "dist",
-    ".ipynb_checkpoints",
+    ".pytest_cache",
+    ".ipynb_checkpoints"
   ],
   "ruff.lineLength": 100,
-  "ruff.lint.select": [
-    "E", // PEP8 errors
-    "F", // Pyflakes
-    "W", // PEP8 warnings
-    "I", // isort (импорты)
-    "B", // flake8-bugbear (важные баги)
-    "C4", // flake8-comprehensions (list/dict/set gen)
-    "UP", // pyupgrade (современный синтаксис)
-    "SIM", // flake8-simplify (упрощение кода)
-    "RUF", // Ruff-specific rules
-    "A", // flake8-builtins (не перекрывать id, type, list)
-    "ISC", // implicit-str-concat (забытые запятые в строках)
-    "LOG", // flake8-logging (правильное логирование)
-    "FAST", // FastAPI
-    "ASYNC", // Асихронный код
-    "NPY", // NumPy
-    "DJ", // Django
-    "C4", // flake8-comprehensions (оптимизация list/dict/set генераторов)
-    "PERF", // Выявление проблем с производительностью
-    "FURB", // Форматирование кода
-  ],
   "ruff.lint.ignore": [
     "E501",
     "D",
@@ -254,35 +268,53 @@
     "B008",
     "E402",
     "F405",
-    "A002",
+    "A002"
+  ],
+  "ruff.lint.select": [
+    "E",
+    "F",
+    "W",
+    "I",
+    "B",
+    "C4",
+    "UP",
+    "SIM",
+    "RUF",
+    "A",
+    "ISC",
+    "LOG",
+    "FAST",
+    "ASYNC",
+    "NPY",
+    "DJ",
+    "C4",
+    "PERF",
+    "FURB"
   ],
   "ruff.logLevel": "info",
   "ruff.nativeServer": "on",
   "ruff.organizeImports": true,
-  "security.allowedUNCHosts": ["brookit.me", "old.brookit.me"],
+  "security.allowedUNCHosts": [
+    "brookit.me",
+    "old.brookit.me"
+  ],
   "security.workspace.trust.banner": "never",
   "security.workspace.trust.untrustedFiles": "open",
   "sqltools.connections": [],
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "crash",
-  //"terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.profiles.windows": {
     "Git Bash": {
-      "path": "C:\\Program Files\\Git\\bin\\bash.exe",
-    },
+      "args": [
+        "--login",
+        "-i"
+      ],
+      "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+    }
   },
+  "todo-tree.ripgrep.ripgrep": "C:\\Users\\brookit\\AppData\\Local\\Microsoft\\WinGet\\Links\\rg.exe",
   "window.menuBarVisibility": "classic",
   "workbench.colorTheme": "cursor-less-dark",
-  "git.autoStash": true,
-  "docker.extension.dockerEngineAvailabilityPrompt": false,
-  "workbench.iconTheme": "material-icon-theme",
-  "githubPullRequests.createOnPublishBranch": "never",
-  "ruff.configuration": "C:\\Users\\brookit\\AppData\\Roaming\\ruff\\ruff.toml",
-  "ruff.configurationPreference": "filesystemFirst",
-  "editor.unicodeHighlight.allowedLocales": {
-    "ru": true,
-  },
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "notebook.defaultFormatter": "charliermarsh.ruff",
-  "python.analysis.typeCheckingMode": "standard"
+  "workbench.iconTheme": "material-icon-theme"
 }
