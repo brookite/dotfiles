@@ -38,3 +38,4 @@ echo "Go успешно установлен в /usr/local/go/bin! Текуща�
 export PATH=$PATH:/usr/local/go/bin
 go version
 go install golang.org/x/tools/gopls@latest
+go install oss.terrastruct.com/d2@latest

@@ -9,6 +9,8 @@ pyjson5
 pyjwt
 Authlib
 PyOTP
+markitdown[pdf, docx, pptx, xls, xlsx, youtube-transcription]
+ua-parser[regex]
 python-pptx
 calgebra[ical]
 fonttools
