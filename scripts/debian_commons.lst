@@ -42,6 +42,8 @@ lsb-release
 debian-archive-keyring
 libtool-bin
 autoconf
+aria2
+libaria2-0-dev
 zlib1g-dev
 liblzma-dev
 xz-utils
