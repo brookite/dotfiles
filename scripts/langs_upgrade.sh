@@ -1,6 +1,4 @@
 rustup update
-nvm install --lts
-nvm use --lts
-npm install -g npm
+bash nvm-install-lts.sh
 deno upgrade
 bun upgrade
