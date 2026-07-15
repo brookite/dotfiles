@@ -2,10 +2,13 @@
 setlocal enabledelayedexpansion
 
 set "FILES[0]=C:\Users\%USERNAME%\AppData\Local\Packages\TheDebianProject.DebianGNULinux_76v4gfsz19hv4\LocalState\ext4.vhdx"
-set /a COUNT=3
+set /a COUNT=1
+
 set /a LAST=COUNT-1
 
 echo Shutting down WSL...
+
+wsl -d Debian -- sudo fstrim -av
 wsl --shutdown
 
 for /L %%i in (0,1,%LAST%) do (
