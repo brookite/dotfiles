@@ -3,9 +3,11 @@ BeautifulSoup4
 pygame-ce
 icdiff
 json5
+markdownify
 reedsolo
 tree-sitter
 pyjson5
+toon-format
 pyjwt
 Authlib
 PyOTP

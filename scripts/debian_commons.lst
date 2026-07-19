@@ -8,7 +8,6 @@ gcc
 lsb-release
 imagemagick
 jq
-stow
 bsdiff
 nano
 ffmpeg
@@ -48,6 +47,11 @@ zlib1g-dev
 liblzma-dev
 xz-utils
 automake
+nasm
+autoconf
+autoconf-archive
+m4
+libtool
 pkg-config
 libreadline-dev
 tk-dev
@@ -85,6 +89,8 @@ libzstd-dev
 libncurses-dev
 libssl-dev
 libsqlite3-dev
+libsqlite3-ext-icu
+libsqlite3-ext-csv
 curl
 python3-pip
 python3-numpy

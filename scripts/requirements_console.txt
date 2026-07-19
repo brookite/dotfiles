@@ -3,9 +3,11 @@ BeautifulSoup4
 dateparser
 black
 reedsolo
+toon-format
 icdiff
 json5
 msgspec
+markdownify
 pyjwt
 aiosqlite
 statsmodels

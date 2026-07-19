@@ -4,6 +4,8 @@ dateparser
 black
 reedsolo
 pyjson5
+markdownify
+toon-format
 pyjwt
 graphene
 icdiff
