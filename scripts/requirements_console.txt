@@ -13,6 +13,7 @@ aiosqlite
 statsmodels
 ua-parser[regex]
 pycountry
+feedparser
 markitdown[pdf, docx, pptx, xls, xlsx, youtube-transcription]
 Authlib
 PyOTP
@@ -28,6 +29,7 @@ graphene
 tree-sitter
 Pygments
 docxtpl
+merge3
 ftfy
 dilithium-py
 pathspec
