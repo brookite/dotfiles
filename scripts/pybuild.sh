@@ -58,6 +58,7 @@ cd ..
 sudo rm -rf "Python-$PYTHON_LATEST" "Python-$PYTHON_LATEST.tgz"
 
 PYTHON_BIN="/usr/local/bin/python${PYTHON_MAJOR_MINOR}"
+PIP_BIN="/usr/local/bin/pip${PYTHON_MAJOR_MINOR}"
 PYTHON_VERSION_INSTALLED=$($PYTHON_BIN --version | awk '{print $2}')
 echo "Python $PYTHON_VERSION_INSTALLED установлен по пути $PYTHON_BIN"
 
@@ -79,6 +80,7 @@ $PYTHON_BIN -m pip install -r requirements_console.txt
 
 # Установка ссылок
 ln -sf $PYTHON_BIN ~/.local/bin/python
+ln -sf $PYTHON_BIN ~/.local/bin/pip
 
 echo "Установка uv..."
 curl -LsSf https://astral.sh/uv/install.sh | sh
