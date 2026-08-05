@@ -2,3 +2,6 @@ mdbook
 tabiew
 tauri-cli
 oxipng
+cargo-binstall
+cargo-update
+ripgrep

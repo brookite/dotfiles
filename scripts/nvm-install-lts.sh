@@ -44,7 +44,7 @@ fi
 echo
 echo "Switching to latest LTS..."
 
-nvm use --lts --delete-prefix
+nvm use --lts --delete-prefix "lts/*"
 NEW_VERSION="$(nvm current)"
 
 echo

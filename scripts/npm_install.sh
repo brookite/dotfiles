@@ -1,2 +1,36 @@
-npm config set timeout 600000
-npm install -g eslint quill react react-dom react-router react-i18next vue @vue/compiler-sfc electron markdown-it marked typescript typescript-language-server mermaid @babel/core webpack axios turndown tree-sitter-cli @gravity-ui/markdown-editor highlight.js tinymce tinymce-react tinymce-vue @editorjs/editorjs bootstrap prettier jquery katex jsdom bash-language-server dockerfile-language-server-nodejs markmark yaml-language-server level bcryptjs express socket.io dotenv jsonwebtoken lucide-react tsyringe uuid idb yaml mathml-to-latex dompurify defuddle dayjs @electron/asar tsx tailwindcss ajv bootstrap remixicon qr-code-styling pako twemoji-parser emoji-datasource-apple idb-keyval openpgp qrious nodemon chalk cookie rfc6902 ws slug query-string natural-sort jszip diff fs-extra @fast-csv/parse fuzzy-search glob form-data zod husky qs date-fns punycode semver tslib commander minisearch dexie classnames file-saver dexie-react-hooks usehooks-ts nanoid luxon @mozilla/readability fuzzysort lottie-web pnpm vscode-langservers-extracted csstype js-md5 mime @toon-format/toon node-ssh @cryptography/sha256 big-integer compression chokidar fast-png juice js-xxhash tinyld meriyah astring ignore @openai/codex @usebruno/cli skills opencode-ai@latest @toon-format/cli @playwright/test @marp-team/marp-cli @mermaid-js/mermaid-cli @mdx-js/mdx @mdx-js/rollup @mdx-js/react
+#!/bin/bash
+
+set -euo pipefail
+
+SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+PACKAGE_FILE="${1:-"$SCRIPT_DIR/npm_packages.lst"}"
+FETCH_TIMEOUT_MS=300000 # 300 seconds; npm expects milliseconds.
+
+if ! command -v npm >/dev/null 2>&1; then
+  echo "Ошибка: npm не найден в PATH." >&2
+  exit 1
+fi
+
+if [[ ! -f "$PACKAGE_FILE" ]]; then
+  echo "Ошибка: файл со списком пакетов не найден: $PACKAGE_FILE" >&2
+  exit 1
+fi
+
+packages=()
+while IFS= read -r line || [[ -n "$line" ]]; do
+  line="${line%%#*}"
+  line="${line#"${line%%[![:space:]]*}"}"
+  line="${line%"${line##*[![:space:]]}"}"
+
+  [[ -z "$line" ]] && continue
+  packages+=("$line")
+done < "$PACKAGE_FILE"
+
+if (( ${#packages[@]} == 0 )); then
+  echo "В файле $PACKAGE_FILE нет пакетов для установки."
+  exit 0
+fi
+
+echo "Установка npm-пакетов из $PACKAGE_FILE..."
+npm install --global --fetch-timeout="$FETCH_TIMEOUT_MS" "${packages[@]}"
+echo "Npm-пакеты установлены."
