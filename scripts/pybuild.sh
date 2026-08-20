@@ -76,7 +76,7 @@ cd "$START_DIR"
 
 # Установка пакетов из requirements_console.txt
 echo "Установка зависимостей из requirements_console.txt..."
-$PYTHON_BIN -m pip install -r requirements_console.txt
+$PYTHON_BIN -m pip install --upgrade -r requirements_console.txt
 
 # Установка ссылок
 ln -sf $PYTHON_BIN ~/.local/bin/python

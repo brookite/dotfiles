@@ -13,6 +13,7 @@ typescript
 typescript-language-server
 mermaid
 @babel/core
+acorn
 webpack
 axios
 turndown
@@ -35,6 +36,9 @@ yaml-language-server
 level
 bcryptjs
 express
+@commitlint/cli
+@commitlint/config-conventional
+better-sqlite3
 socket.io
 dotenv
 jsonwebtoken
