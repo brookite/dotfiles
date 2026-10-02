@@ -12,6 +12,7 @@ marked
 typescript
 typescript-language-server
 mermaid
+ts-json-schema-generator
 @babel/core
 acorn
 webpack
@@ -84,6 +85,7 @@ husky
 qs
 date-fns
 punycode
+web-tree-sitter
 semver
 tslib
 commander
@@ -119,7 +121,7 @@ ignore
 @openai/codex
 @usebruno/cli
 skills
-opencode-ai@latest
+@opencode/cli
 @toon-format/cli
 @playwright/test
 @marp-team/marp-cli

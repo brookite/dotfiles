@@ -20,6 +20,8 @@ mouse
 json5
 fonttools
 Pygments
+fastmcp
+curl-cffi
 conan
 calgebra[ical]
 aiosqlite

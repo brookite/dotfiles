@@ -10,10 +10,15 @@ msgspec
 markdownify
 pyjwt
 aiosqlite
+sqlite-vec
+git-filter-repo
 statsmodels
 ua-parser[regex]
+ladybug
 pycountry
 feedparser
+fastmcp
+curl-cffi
 markitdown[pdf, docx, pptx, xls, xlsx, youtube-transcription]
 Authlib
 PyOTP

@@ -8,6 +8,8 @@ gcc
 lsb-release
 imagemagick
 jq
+ncdu
+yq
 bsdiff
 nano
 ffmpeg
@@ -24,6 +26,7 @@ lsof
 dos2unix
 apt-transport-https
 command-not-found
+man
 openssl
 libncurses-dev
 openssh-server

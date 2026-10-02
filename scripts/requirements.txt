@@ -9,6 +9,7 @@ tree-sitter
 pyjson5
 toon-format
 pyjwt
+sqlite-vec
 Authlib
 PyOTP
 markitdown[pdf, docx, pptx, xls, xlsx, youtube-transcription]
@@ -21,6 +22,7 @@ ftfy
 pythonnet
 pycountry
 pptx-shapes
+git-filter-repo
 jpype1
 statsmodels
 tree-sitter-language-pack
@@ -28,6 +30,7 @@ msgspec
 antlr4-python3-runtime
 pyqt5
 dilithium-py
+curl-cffi
 minify-html
 lottie
 qscintilla
@@ -37,6 +40,7 @@ docxtpl
 xxhash
 pymediawiki
 pyzstd
+ladybug
 pymorphy3
 exif
 libusb
@@ -70,6 +74,7 @@ GitPython
 black
 translators
 termcolor
+fastmcp
 mypy
 tinydb
 natsort
